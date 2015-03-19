@@ -17,6 +17,14 @@ body {
     background-color: #82DAFA;
 }
 
+.portfolio-marketing {
+    background-color: #81BD41;
+}
+
+.portfolio h3{
+    margin-bottom: 40px;
+}
+
 #contact {
     background-color: #999FA6;
 }
@@ -263,7 +271,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: #EC008C;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -458,6 +466,11 @@ footer .footer-below {
     font-size: 3em;
 }
 
+.portfolio-modal .modal-content h3 {
+    margin-bottom: 10px;
+    font-size: 3em;
+}
+
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
 }
@@ -506,6 +519,17 @@ footer .footer-below {
     opacity: 0.7;
 }
 
+.clear { 
+    clear:both;
+}
+
+.photo-link { 
+    padding:5px; margin:5px; border:1px solid #ccc; display:block; width:200px; float:left;
+}
+
+.photo-link:hover {
+    border-color:#999;
+}
 
 
 
